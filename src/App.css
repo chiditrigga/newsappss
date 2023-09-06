@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+    background: hsl(36, 100%, 99%) !important;
+    font-weight: 400 !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .one p{
+    border-bottom: solid   hsl(233, 8%, 79%) 1px !important;
+    padding-bottom: 50px !important;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .two p{
+    border-bottom: solid   hsl(233, 8%, 79%) 1px !important;
+    padding-bottom: 50px !important;
   }
-}
+  .fontw{
+    font-weight: 700 !important;
+  }
+  .offcanvas{
+    width: 70vw !important;
+  }
+  .curt{
+    cursor: pointer;
+  }
+  
+  .curt:hover{
+   color:  hsl(5, 85%, 63%) !important;
+  }
+  .cur{
+    cursor: pointer;
+  }
+  .cur:hover{
+    cursor: pointer !important;
+    color: hsl(35, 77%, 62%) !important
+  }
+  
+  .redd:hover{
+    color: hsl(5, 85%, 63%) !important;
+    
+  }
+  .orange{
+    color: hsl(35, 77%, 62%) !important;
+  }
+  
+  .red:hover{
+    background:  hsl(240, 100%, 5%) !important;
+    color: hsl(36, 100%, 99%) !important;
+    border-color:  hsl(240, 100%, 5%) !important;
+  }
+  
+  .blue{
+    background:  hsl(240, 100%, 5%) !important;
+  }
+  
+  .gblue{
+    color: hsl(233, 8%, 79%) !important;
+  }
+  
+  .offwhite{
+    color: hsl(36, 100%, 99%);
+  }
+  
+  .hov{
+    background: hsl(5, 85%, 63%) !important;
+    border-color: hsl(5, 85%, 63%) !important;
+    
+  }
+  
+  p{
+    font-size : 15px !important ;
+  };
+  
